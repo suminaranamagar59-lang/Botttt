@@ -1,0 +1,11 @@
+{
+  "name": "auth-system-root",
+  "version": "1.0.0",
+  "description": "Root package for deployment",
+  "scripts": {
+    "install-backend": "cd backend && npm install",
+    "build": "npm run install-backend",
+    "start": "cd backend && node server.js"
+  },
+  "dependencies": {}
+}
